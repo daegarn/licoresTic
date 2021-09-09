@@ -1,0 +1,21 @@
+.cuerpo{
+    background-color: burlywood;
+    width: 1000px;
+    height: 1600px;
+    display: flex;
+}
+.cajamenu{
+    background-color: cornflowerblue;
+    width:200px;
+    height: 600px;
+}
+.cajaredes{
+    background-color: darkcyan;
+    width:200px;
+    height: 600px;   
+}
+.cajaproductos{
+    background-color: darkorchid;
+    width:750px;
+    height: 1550px;
+}
