@@ -1,21 +1,90 @@
+
+.menuprincipal{
+    display: flex;   
+}
+
+.menuprincipal ul{
+    display: flex;
+    list-style: none;
+}
+.menuprincipal li a{
+    display: block;
+    background-color:black;
+    color: gold;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-style: solid;
+
+}
 .cuerpo{
-    background-color: burlywood;
-    width: 1000px;
+    background-color: honeydew;
+    width: 100%;
     height: 1600px;
     display: flex;
 }
+.cajafunciones{
+    justify-items: right;
+}
 .cajamenu{
     background-color: cornflowerblue;
-    width:200px;
+    width: 250px;;
     height: 600px;
 }
 .cajaredes{
     background-color: darkcyan;
-    width:200px;
+    width: 250px;;
     height: 600px;   
 }
 .cajaproductos{
     background-color: darkorchid;
-    width:750px;
+    width:80%;
     height: 1550px;
+    display: block;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 300px;
+    color: gold;
+
+}
+.primero{
+    width: 24%;
+    text-align: left;
+    border-style: solid;
+    padding: 20px;
+}
+.segundo{
+    width: 24%;
+    text-align: left;
+    border-style: solid;
+    padding: 20px;
+
+}
+.tercero{
+    width: 50%;
+    text-align: lestr;
+    border-style: solid;
+    padding: 20px;
+}
+
+.linkedit{
+    outline: none;
+    text-decoration: none;
+    color: gold;
+}
+
+.cajadeproducto1{
+    display: flex;
+}
+.cajadeproducto2{
+    display: flex; 
+}
+.cajadeproducto3{
+    display: flex;   
+}
+.cajadeproducto4{
+    display: flex;   
 }
