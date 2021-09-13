@@ -1,11 +1,12 @@
 
 .menuprincipal{
-    display: flex;   
+    display: flex;
+    justify-content: center;  
 }
-
 .menuprincipal ul{
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 .menuprincipal li a{
     display: block;
@@ -15,33 +16,42 @@
     height: 40px;
     text-align: center;
     border-style: solid;
-
+    padding: 20px 0px 0px 0px;
+}
+.menucentro{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 40px;
 }
 .cuerpo{
-    background-color: honeydew;
+    display: flex;
     width: 100%;
     height: 1600px;
-    display: flex;
-}
-.cajafunciones{
-    justify-items: right;
-}
-.cajamenu{
-    background-color: cornflowerblue;
-    width: 250px;;
-    height: 600px;
-}
-.cajaredes{
-    background-color: darkcyan;
-    width: 250px;;
-    height: 600px;   
+    background-color:orangered;   
 }
 .cajaproductos{
     background-color: darkorchid;
-    width:80%;
+    width: 70%;
     height: 1550px;
     display: block;
 }
+.cajafunciones{
+    width: 25%;
+    height: 250px;
+    display: block;
+    padding: 0px 0px 0px 50px;
+}
+.cajamenu{
+    background-color: cornflowerblue;
+    width: 80%;
+    height: 100px;
+}
+.cajaredes{
+    background-color: darkcyan;
+    width: 80%;
+    height: 100px;   
+}
+
 .pie{
     display: flex;
     justify-content: center;
@@ -65,17 +75,15 @@
 }
 .tercero{
     width: 50%;
-    text-align: lestr;
+    text-align: left;
     border-style: solid;
     padding: 20px;
 }
-
 .linkedit{
     outline: none;
     text-decoration: none;
     color: gold;
 }
-
 .cajadeproducto1{
     display: flex;
 }
