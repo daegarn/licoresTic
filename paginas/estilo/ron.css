@@ -96,3 +96,10 @@
 .cajadeproducto4{
     display: flex;   
 }
+.cajainterna{
+    background-color: blue;
+    display: block;
+    border-style: solid;
+    width: 250px;
+    height: 300px;
+}
